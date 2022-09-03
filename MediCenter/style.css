@@ -1,0 +1,584 @@
+
+html{
+
+    overflow-x: hidden;
+}
+
+main {
+    height: 100%;
+
+}
+
+object {
+    display:none
+    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+header .container {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    overflow-x: hidden;
+    
+}
+
+
+.logomark {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+    
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav a {
+    display: block;
+    padding: 26px;
+    text-decoration: none;
+    color: #727272;
+}
+
+nav .active a {
+    background-color: #39aae1;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url('assets/images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    max-height: 2500px;
+    min-height: 900px;
+}
+
+.column {
+    flex-direction: column
+}
+
+.bannerheadline {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.bannerheadline h1 {
+    color: white;
+    font-size: 90px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.517);
+    margin: 0px;
+    padding: 0px;
+    max-width: 450px;
+}
+
+.bannerheadline h2 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 1px 0px rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    max-width: 400px;
+    margin-top: 40px
+}
+
+.banneroptions {
+    height: 315px;
+    display: flex;
+}
+.banner1, .banner2, .banner3 {
+    flex: 1; 
+    color: #ffffff;
+    padding: 26px;
+}
+.banner1 {
+    background-color: #39aae1
+}
+
+.banner2 {
+    background-color: #0079c7
+}
+
+.banner3 {
+    background-color: #2b4c99
+    
+}
+
+.bannertitle {
+    font-size: 32px;
+
+}
+
+.bannerdesc {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    text-align: justify;
+    
+}
+
+.banneroptions a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 60%;
+
+}
+
+.bannerdaystime{
+    padding-top:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(228, 217, 217, 0.3);
+    display:flex;
+    justify-content: space-between;
+}
+.bannerdaystime span{
+    font-size:17px;
+}
+
+#general {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#general section {
+    flex:2;
+    width: auto;
+    display: flex;
+}
+
+#general aside {
+    flex:1;
+    width: auto;
+}
+
+aside .widgetbody {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+aside .asideaddress {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+}
+
+.widgettitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widgettitletext {
+    color: black;
+    font-size:24px;
+    font-weight: bold;
+
+}
+
+.widgettitlebar {
+    width: 60px;
+    height: 4px;
+    background-color: rgb(0, 191, 255);
+    margin-top: 10px;
+}
+
+article {
+    min-width: 200px;
+    max-width: 350px;
+    margin-right: 36px;
+    height: 100%;
+
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .newsdata {
+    display: flex;
+}
+
+article .newspostedat { 
+    background-color:#2b4c99;
+    font-size: 16px;
+    padding: 12px;
+    color: whitesmoke;
+    margin-right: 3px;
+}
+
+article .newscoments { 
+    background-color:#39aae1;
+    font-size: 16px;
+    padding: 12px;
+    color: #ffffff;
+}
+
+article .newsthumb {
+    margin-top: 30px;
+}
+
+article .newsthumb img {
+    width: 100%;
+    height: auto;
+}
+
+article .newstitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 26px;
+}
+
+article .newsresume {
+    color: #5c5c5c;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footermenu {
+    display: flex;
+    flex: 1;
+}
+
+.footermenu > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: white;
+    padding: 26px;
+    margin-top: 36px;
+    
+}
+
+.fm1 {
+    background-color: #39aae1
+}
+
+.fm2 {
+    background-color: #0079c7
+}
+
+.fm3 {
+    background-color: #2b4c99
+    
+}
+
+.rightarrow {
+    display: flex;
+    margin-left: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.footerarea {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+.footerareaitem {
+    flex: 1;
+    padding: 26px;
+    padding-bottom: 0px;
+}
+
+footer .widgettitletext {
+    color: white;
+}
+
+footer .footercopy {
+    border-top: 1px solid rgb(48, 48, 48);
+    height: 45px;
+    line-height: 45px;
+    color: #6b6b6b;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .websiteauthor {
+
+    height: 45px;
+    line-height: 45px;
+    color: #2c2c2c;
+    display: flex;
+}
+
+address {
+    font-style: normal;
+    color:rgb(200, 200, 200);
+}
+
+footer .footeraddress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-size: 16px;
+    font-style: italic;
+}
+footer .footeradresstext {
+    margin-bottom: 45px;
+    color:rgb(200, 200, 200);
+}
+
+.textindent {
+    text-indent: 200px;
+   
+}
+
+.footerrightarrow {
+    margin-right: 24px;
+}
+
+.widgetbody > p > a {
+    display: inline;
+    justify-content: flex-end;
+    color:rgb(0, 191, 255);
+    text-decoration: none;
+    font-size: 17px
+}
+
+.widgetbody > p > a:hover {
+    text-decoration: underline;
+    color:rgb(0, 238, 255);
+
+}
+
+
+.widgetbody p {
+    margin-bottom: 30px;
+}
+
+.footerlastnews {
+    margin-bottom: 20px;
+    color: rgb(250, 250, 250);
+}
+
+.footerlasttweets {
+    color:rgb(200, 200, 200);
+}
+.footerlasttweets a {
+    color: rgb(0, 191, 255);
+    text-decoration: none;
+ 
+}
+.footerlasttweets a:hover {
+    text-decoration: underline;
+    color:rgb(0, 238, 255);
+}
+
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #ff0000;
+    color: white;
+  }
+.spanemail {
+    margin-bottom: 38px;
+}
+   
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.mobileline {
+    height: 5px;
+    background-color: #39aae1;
+
+}
+
+.asidesocialaddress {
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.asidesocialaddress a {
+    color:rgb(0, 191, 255)
+}
+.asidesocialaddress a:hover{
+    color:rgb(0, 238, 255);
+}
+
+
+
+
+  @media (max-width:1240px) {
+    .bannerheadline h1 {
+        font-size: 60px;
+    }
+    .bannerheadline h2 {
+        font-size: 26px;
+    }
+    .banneroptions {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner1, .banner2, .banner3 {
+        width: 85%;
+        height: 100px;
+        
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #banner     {
+    display: flex;
+    justify-content: center;
+    background-image:url('assets/images/img3.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .widgetbody {
+        width: 100%;
+        align-items: center;
+        margin: auto;
+        padding: 4%;
+    }
+    .footermenu {
+        flex-direction: column;
+    }
+    .footerarea {
+        flex-direction: column;
+    }
+    .bannerheadline {
+        width: 1000px;
+    }
+    
+    .bannerheadline h1 {
+    padding: 40px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    }
+    
+    .bannerheadline h2 {
+    padding: 40px;
+    padding-left: 2px;
+    padding-top: 15px;
+    }
+    .banneroptions {
+        height: 990px;
+    }
+    .banneroptions  a {
+        visibility: hidden;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+    header {
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
